@@ -26,7 +26,7 @@ function BuySell() {
   );
 
   return (
-    <section className="bg-white text-black p-16 rounded-md shadow-sm">
+    <section className=" text-black border p-16 rounded-md shadow-sm">
       <div className="flex items-center mb-6 gap-3">
         <BsCartCheck className="text-[#13C580] text-3xl" />
         <h2 className="text-3xl  font-bold text-[#13C580]">Buy / Sell Marketplace</h2>

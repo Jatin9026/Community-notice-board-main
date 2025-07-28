@@ -27,7 +27,7 @@ const feedbacks = [
 
 function Feedback() {
   return (
-    <section className="bg-white text-black px-6 py-16 rounded-md">
+    <section className="border text-black px-6 py-16 rounded-md">
       {/* Section Title */}
       <div className="flex items-center gap-3 mb-10">
         <FaQuoteLeft className="text-[#13C580] text-3xl" />

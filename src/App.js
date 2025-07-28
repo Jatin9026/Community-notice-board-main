@@ -14,10 +14,10 @@ import Feedback from './pages/Feedback';
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-white to-[#13C580]/10"> {/* Added gradient background */}
       <ConnectionStatus />
       <Navbar />
-      <main className="flex-1 w-full max-w-3xl mx-auto px-2 sm:px-4 py-6">
+      <main className="flex-1 w-full max-w-3xl mx-auto px-2 sm:px-4 pt-20 pb-6">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/announcements" element={<Announcements />} />

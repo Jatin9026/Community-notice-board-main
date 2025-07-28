@@ -5,10 +5,10 @@ export default function Home() {
   const primaryCTA = "Post Your Notice";
 
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-4 py-12 overflow-hidden bg-white">
+    <section className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-4 py-12 overflow-hidden  border-none">
 
       {/* Blurry Blob Backgrounds */}
-      <div className="absolute inset-0 -z-10 overflow-hidden">
+      <div className="absolute  overflow-hidden">
         <div className="absolute top-[-100px] left-[-100px] w-[300px] h-[300px] bg-[#13C580]/30 rounded-full filter blur-3xl animate-pulse"></div>
         <div className="absolute bottom-[-80px] right-[-120px] w-[280px] h-[280px] bg-[#13C580]/20 rounded-full filter blur-2xl animate-ping"></div>
       </div>

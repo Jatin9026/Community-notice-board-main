@@ -48,7 +48,7 @@ const typeIconMap = {
 
 function Contacts() {
   return (
-    <section className="bg-white text-black p-24 rounded-md shadow-md">
+    <section className="border text-black p-24 rounded-md shadow-md">
       {/* Section Header */}
       <div className="flex items-center gap-3 mb-6">
         <FaPhoneAlt className="text-[#13C580] text-3xl" />

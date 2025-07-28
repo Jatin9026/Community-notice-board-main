@@ -29,7 +29,7 @@ function Announcements() {
   );
 
   return (
-    <section className="bg-white text-black p-16 rounded-md shadow-sm">
+    <section className=" text-black border p-16 rounded-md shadow-sm">
       {/* Header */}
       <div className="flex items-center mb-6 gap-3">
         <BsMegaphone className="text-[#13C580] text-3xl" />
