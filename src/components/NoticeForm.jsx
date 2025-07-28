@@ -97,13 +97,13 @@ function NoticeForm({ onSubmit, isSubmitting = false }) {
         />
       </div>
       <div className="mb-6">
-        <label className="block font-semibold mb-2 text-gray-700">Contact (optional)</label>
+        <label className="block  font-semibold mb-2 text-gray-700">Contact (optional)</label>
         <input
           type="text"
           name="contact"
           value={form.contact}
           onChange={handleChange}
-          className="w-full  border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#13C580] focus:border-transparent transition duration-200 text-gray-800"
+          className="w-full border  border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#13C580] focus:border-transparent transition duration-200 text-gray-800"
           disabled={isSubmitting}
         />
       </div>
