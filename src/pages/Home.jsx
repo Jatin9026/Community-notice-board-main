@@ -1,9 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
+
 
 export default function Home() {
   const primaryCTA = "Post Your Notice";
-
+const navigate = useNavigate();
   return (
     <section className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-4 py-12 overflow-hidden  border-none">
 
@@ -54,12 +56,13 @@ export default function Home() {
         </motion.div>
 
         {/* CTA Button */}
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={() => window.location.href = '/post'}
-          className="group relative font-semibold px-8 py-3 rounded-md text-white bg-black  border-black overflow-hidden shadow-xl transition-all duration-300"
-        >
+       
+<motion.button
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  onClick={() => navigate('/post')}
+  className="group relative font-semibold px-8 py-3 rounded-md text-white bg-black  border-black overflow-hidden shadow-xl transition-all duration-300"
+>
           <span className="absolute left-0 top-0 h-full w-full bg-[#13C580] z-0 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
           <span className="relative z-10 group-hover:text-white transition-colors duration-300">
             {primaryCTA}
